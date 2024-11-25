@@ -20,11 +20,11 @@ const myPromise = new Promise((resolve, reject) => {
 });
 
 myPromise
-  .then((message) => {
-    console.log(message);
-    // Calling async funtion to write to the text file
-    writeToFile();
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+.then((message) => {
+console.log(message);
+// Calling async funtion to write to the text file
+writeToFile();
+})
+.catch((error) => {
+console.log(error);
+});

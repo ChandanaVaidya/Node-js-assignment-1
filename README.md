@@ -18,10 +18,10 @@ Promises allows to attach callbacks using `.then()` for when the promise resolve
 
 ## async/await
 
-`async/await` is a syntax in JavaScript for working with promises. It makes asynchronous code look and behave more like synchronous code, making it easier to read and understand.
+async/await is a syntax in JavaScript for working with promises. It makes asynchronous code look and behave more like synchronous code, making it easier to read and understand.
 
-- **`async`** is used to declare a function that will return a promise.
-- **`await`** is used inside an `async` function to pause the function’s execution until the promise is resolved or rejected.
+- **async** is used to declare a function that will return a promise.
+- **await** is used inside an `async` function to pause the function’s execution until the promise is resolved or rejected.
 
-Using `async/await` allows for a more linear, readable flow of code compared to chaining `.then()` and `.catch()`.
+Using async/await allows for a more linear, readable flow of code compared to chaining `.then()` and `.catch()`.
 
