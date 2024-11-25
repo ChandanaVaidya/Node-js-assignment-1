@@ -1,0 +1,1 @@
+This is to say that a message is written using fs and async/await.
