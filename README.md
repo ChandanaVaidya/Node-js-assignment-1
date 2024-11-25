@@ -3,12 +3,10 @@ Promise, fs module and async/wait
 
 This is a  Node js project that demonstrates using **Promises**, the **fs module**, and **async/await**. It also includes basic Git usage to manage version control and push the code to GitHub.
 
-## Features
-
 - Uses **Promises** to handle asynchronous operations.
 - Demonstrates writing to a file using the **fs module** with **async/await**.
 
-## Node.js Promises
+## Promises
 
 A **Promise** in JS represents an asynchronous operation that will complete at some point in  future. It can be in one of three states:
 
